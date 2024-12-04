@@ -1,0 +1,17 @@
+.bookmarks-page {
+  .filter-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 16px;
+
+    button {
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+
+  app-bookmark-list {
+    margin-top: 16px;
+  }
+}

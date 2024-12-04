@@ -1,0 +1,25 @@
+.create-bookmark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 20px;
+}
+.create-bookmark form {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+
+}
+.create-bookmark mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button[mat-raised-button] {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px 0;
+}
